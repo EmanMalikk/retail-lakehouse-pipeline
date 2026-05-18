@@ -16,3 +16,7 @@
 ### Querying & Version Control
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge)
+
+**🚀 Project Overview**
+
+This end-to-end data engineering project simulates and processes e-commerce transactional data to generate meaningful business insights and analytics dashboards. We built a scalable data pipeline using Databricks, Apache Spark, and Delta Lake, following a Medallion Architecture (Bronze → Silver → Gold) to progressively transform raw data into analytics-ready datasets.
