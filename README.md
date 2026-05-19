@@ -56,7 +56,7 @@ E-com-Project/
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ⚙️ Step 2: Data Processing in Databricks (Medallion Architecture)
 
