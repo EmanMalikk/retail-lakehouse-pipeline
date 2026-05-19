@@ -58,3 +58,53 @@ E-com-Project/
 └── .gitignore
 
 
+⚙️ Step 2: Data Processing in Databricks (Medallion Architecture)
+
+We implemented a 3-layer Medallion Architecture using PySpark in Databricks to transform raw e-commerce data into analytics-ready datasets.
+
+🍂 Bronze Layer (Raw Ingestion)
+
+01_bronze_ingestion.py / notebook
+
+We loaded raw e-commerce data (CSV / generated dataset) into Databricks and stored it in Delta format without applying any transformations. This layer preserves the original structure of the data for traceability and auditing purposes.
+
+Output tables created:
+
+bronze_customers
+bronze_orders
+bronze_products
+bronze_payments
+🔧 Silver Layer (Data Cleaning & Transformation)
+
+02_silver_cleaning.py / notebook
+
+In this layer, we cleaned and standardized the data by removing null values, duplicates, and inconsistent records. Data types such as dates and numeric fields were corrected, and datasets were joined where necessary (e.g., orders with customers and products).
+
+Output tables created:
+
+silver_customers
+silver_orders
+silver_products
+🪙 Gold Layer (Business Aggregation)
+
+03_gold_analytics.py / notebook
+
+This layer focuses on business-level aggregations and KPI generation using PySpark. We built analytics-ready tables for reporting and dashboarding.
+
+Key metrics include:
+
+Total revenue by product
+Orders by state
+Customer spending behavior
+
+Output tables created:
+
+gold_revenue_metrics
+gold_customer_analysis
+gold_product_performance
+🧾 Notebooks Structure
+1_bronze_ingestion.ipynb
+2_silver_cleaning.ipynb
+3_gold_analytics.ipynb
+
+All notebooks are version-controlled and pushed to GitHub via Databricks Repos.
