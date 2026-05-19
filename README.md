@@ -20,3 +20,9 @@
 **🚀 Project Overview**
 
 This end-to-end data engineering project simulates and processes e-commerce transactional data to generate meaningful business insights and analytics dashboards. We built a scalable data pipeline using Databricks, Apache Spark, and Delta Lake, following a Medallion Architecture (Bronze → Silver → Gold) to progressively transform raw data into analytics-ready datasets.
+
+## 🏗️ End-to-End Pipeline Architecture
+
+The following diagram illustrates the complete data flow and Medallion Architecture implementation used in this project:
+
+![Pipeline Architecture](architecture/pipeline_architecture.png.JPG)
