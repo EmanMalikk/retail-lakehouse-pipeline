@@ -59,7 +59,6 @@ E-com-Project/
 
 
 
-
 🚀 Step 2: Data Processing (Medallion Architecture in Databricks)
 ## ⚙️ Step 2: Data Processing in Databricks (Medallion Architecture)
 
@@ -121,4 +120,3 @@ We implemented a 3-layer Medallion Architecture using PySpark in Databricks to t
 - `3_gold_analytics.ipynb`
 
 These notebooks were version-controlled and pushed to GitHub via Databricks Repos.
-```
