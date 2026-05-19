@@ -26,3 +26,34 @@ This end-to-end data engineering project simulates and processes e-commerce tran
 The following diagram illustrates the complete data flow and Medallion Architecture implementation used in this project:
 
 ![Pipeline Architecture](architecture/pipeline_architecture.png.JPG)
+
+## 📂 Project Structure
+
+```text
+E-com-Project/
+│
+├── notebooks/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── data/
+│   └── raw/
+│
+├── sql/
+│   ├── revenue_analysis.sql
+│   ├── top_products.sql
+│   ├── customer_spending.sql
+│   ├── yearly_orders.sql
+│   └── category_revenue.sql
+│
+├── dashboards/
+│   └── dashboard_notes.md
+│
+├── architecture/
+│   ├── architecture.md
+│   └── pipeline_architecture.png.JPG
+│
+├── README.md
+└── .gitignore
+```
