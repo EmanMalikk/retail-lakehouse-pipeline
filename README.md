@@ -108,3 +108,21 @@ gold_product_performance
 3_gold_analytics.ipynb
 
 All notebooks are version-controlled and pushed to GitHub via Databricks Repos.
+
+cd notebooks
+
+git add bronze/01_bronze_ingestion.py
+cd ..
+git commit -m "Bronze layer ingestion for e-commerce transactional data"
+
+cd notebooks
+
+git add silver/02_silver_cleaning.py
+cd ..
+git commit -m "Silver layer data cleaning and transformation for e-commerce datasets"
+
+cd notebooks
+
+git add gold/03_gold_analytics.py
+cd ..
+git commit -m "Gold layer business aggregations and KPI generation for analytics and reporting"
