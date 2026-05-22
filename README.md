@@ -143,3 +143,13 @@ Visual Type	Description
 | 📊 Column Chart     | Total revenue by product              |
 | 🎛️ Category Slicer | Filters dashboard visuals by category |
 
+
+## 📊 Power BI Dashboard
+
+### Dashboard Preview
+
+![Power BI Dashboard](dashboards/dashboard_ecom.png)
+
+### Download Dashboard File
+
+[📥 Download Power BI Dashboard](dashboards/BI_dashboard.pbix)
