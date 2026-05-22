@@ -1,4 +1,4 @@
-**📦 RetailLake Analytics E-Commerce Lakehouse Pipeline**
+# 📦 RetailLake Analytics E-Commerce Lakehouse Pipeline
  End-to-End E-Commerce Lakehouse Analytics Pipeline using Databricks, PySpark, and Delta Lake
 
 
@@ -17,7 +17,7 @@
 ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge)
 
-**🚀 Project Overview**
+## 🚀 Project Overview
 
 This end-to-end data engineering project simulates and processes e-commerce transactional data to generate meaningful business insights and analytics dashboards. We built a scalable data pipeline using Databricks, Apache Spark, and Delta Lake, following a Medallion Architecture (Bronze → Silver → Gold) to progressively transform raw data into analytics-ready datasets.
 
@@ -58,11 +58,11 @@ E-com-Project/
 └── .gitignore
 ```
 
-⚙️ Step 2: Data Processing in Databricks (Medallion Architecture)
+ ## ⚙️ Step 2: Data Processing in Databricks (Medallion Architecture)
 
 We implemented a 3-layer Medallion Architecture using PySpark in Databricks to transform raw e-commerce data into analytics-ready datasets.
 
-🍂 Bronze Layer (Raw Ingestion)
+ ## 🍂 Bronze Layer (Raw Ingestion)
 
 01_bronze_ingestion.py / notebook
 
@@ -74,7 +74,7 @@ bronze_customers
 bronze_orders
 bronze_products
 bronze_payments
-🔧 Silver Layer (Data Cleaning & Transformation)
+ ## 🔧 Silver Layer (Data Cleaning & Transformation)
 
 02_silver_cleaning.py / notebook
 
@@ -85,7 +85,7 @@ Output tables created:
 silver_customers
 silver_orders
 silver_products
-🪙 Gold Layer (Business Aggregation)
+## 🪙 Gold Layer (Business Aggregation)
 
 03_gold_analytics.py / notebook
 
