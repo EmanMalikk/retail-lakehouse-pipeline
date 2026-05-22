@@ -153,3 +153,24 @@ Visual Type	Description
 ### Download Dashboard File
 
 [📥 Download Power BI Dashboard](dashboards/BI_dashboard.pbix)
+
+
+📁 Folder structure
+
+📂 data/
+→ Raw CSV files (orders, products, customers, transactions)
+
+📂 notebooks/
+→ Data analysis, cleaning, and transformation 
+
+📂 sql/
+→ SQL queries for data extraction and business insights
+
+📂 dashboards/
+→ Power BI files (.pbix), dashboard screenshots
+
+📂 architecture/
+→ System design diagrams (data pipeline flow)
+
+📂 README.md
+→ Project explanation, setup steps, and screenshots preview
