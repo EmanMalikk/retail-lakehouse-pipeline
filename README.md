@@ -127,3 +127,19 @@ git add gold/03_gold_analytics.py
 cd ..
 git commit -m "Gold layer business aggregations and KPI generation for analytics and reporting"
 ```
+**
+📊 Step 4: Power BI Dashboard**
+
+📈 Visuals Created:
+Visual Type	Description
+| Visualization       | Purpose                               |
+| ------------------- | ------------------------------------- |
+| 📊 KPI Card         | Displays overall revenue generated    |
+| 👥 KPI Card         | Shows total unique customers          |
+| 📦 KPI Card         | Displays total number of orders       |
+| 🛒 KPI Card         | Shows total items sold                |
+| 📈 Line Chart       | Revenue trend over time               |
+| 📊 Bar Chart        | Total revenue by category             |
+| 📊 Column Chart     | Total revenue by product              |
+| 🎛️ Category Slicer | Filters dashboard visuals by category |
+
