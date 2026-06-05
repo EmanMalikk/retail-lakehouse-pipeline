@@ -30,7 +30,7 @@ The following diagram illustrates the complete data flow and Medallion Architect
 ## 📂 Project Structure
 
 ```text
-E-com-Project/
+Project/
 │
 ├── notebooks/
 │   ├── bronze/
