@@ -152,8 +152,6 @@ Visual Type	Description
 
 ### Download Dashboard File
 
-[📥 Download Power BI Dashboard](dashboards/BI_dashboard.pbix)
-
 
 📁 Folder structure
 
